@@ -50,6 +50,7 @@ Thumbs.db
 ppv_output.json
 updated_ppv.json
 gpt_stability_results_*.xlsx
+gpt_no_ppv_results_*.xlsx
 
 # Logs
 *.log
