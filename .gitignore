@@ -49,6 +49,7 @@ Thumbs.db
 # Output files (keep the initial/template files, ignore outputs)
 ppv_output.json
 updated_ppv.json
+gpt_stability_results_*.xlsx
 
 # Logs
 *.log
