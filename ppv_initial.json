@@ -1,0 +1,138 @@
+{
+  "id": "ppv-urania-20251114-10",
+  "version": "v1.9",
+  "last_updated": "2025-11-14T14:20:00+08:00",
+  "source_summary": {
+    "dialogue": 2,
+    "questionnaire": 8,
+    "behavior": 0
+  },
+  "big5": {
+    "openness": 60,
+    "conscientiousness": 98,
+    "extraversion": 75,
+    "agreeableness": 85,
+    "neuroticism": 40
+  },
+  "hexaco": {
+    "honesty_humility": {
+      "value": 80,
+      "confidence": 0.5
+    }
+  },
+  "disc": {
+    "D": 20,
+    "I": 75,
+    "S": 85,
+    "C": 40,
+    "confidence": 0.95
+  },
+  "mbti": {
+    "type": "ESFJ",
+    "alt": "ISFJ",
+    "dim_scores": {
+      "E": 75,
+      "I": 25,
+      "N": 30,
+      "S": 70,
+      "T": 30,
+      "F": 70,
+      "J": 95,
+      "P": 5
+    },
+    "confidence": 0.85
+  },
+  "enneagram": {
+    "core": "1w2",
+    "influences": [],
+    "instinct_stacking": "so/sp",
+    "confidence": 0.8
+  },
+  "schwartz_values": {
+    "Self-Direction": 90,
+    "Stimulation": 20,
+    "Achievement": 90,
+    "Security": 75,
+    "Power": 15,
+    "Benevolence": 60,
+    "Universalism": 90,
+    "Conformity": 35,
+    "Tradition": 20,
+    "Hedonism": 35,
+    "confidence": 0.85
+  },
+  "moral_foundations": {
+    "Care": 60,
+    "Fairness": 95,
+    "Loyalty": 40,
+    "Authority": 90,
+    "Sanctity": 15,
+    "Liberty": 70,
+    "confidence": 0.8
+  },
+  "risk_profile": {
+    "overall": 40,
+    "financial": 15,
+    "ethical": 40,
+    "health": 30,
+    "social": 60,
+    "gambling": 5,
+    "confidence": 0.85
+  },
+  "time_preference": {
+    "future_orientation": 95,
+    "immediate_orientation": 10,
+    "confidence": 0.95
+  },
+  "regulatory_focus": {
+    "promotion": 80,
+    "prevention": 85,
+    "confidence": 0.85
+  },
+  "decision_style": {
+    "analytical": 95,
+    "intuitive": 20,
+    "satisficing": 75,
+    "exploratory": 60,
+    "confidence": 0.9
+  },
+  "language_style": {
+    "formality": 40,
+    "politeness": 90,
+    "directness": 50,
+    "avg_sentence_length_words": 9,
+    "use_of_emojis_per_100_msgs": 45,
+    "local_tags": ["Taiwanese-mandarin","Academics","Info-Mgmt","InfoSec","Tech"],
+    "confidence": 0.95
+  },
+  "emotion_profile": {
+    "emotional_expressivity": 70,
+    "baseline_mood_valence": 75,
+    "stress_reactivity": 30,
+    "confidence": 0.85
+  },
+  "social_profile": {
+    "conformity_tendency": 65,
+    "trust_in_institutions": 70,
+    "social_desirability_bias_est": 50,
+    "influenceability": 60,
+    "confidence": 0.8
+  },
+  "behavioral_indicators": {
+    "typical_active_hours": ["17:00-19:00"],
+    "avg_message_length_words": 9,
+    "confidence": 0.6
+  },
+  "confidence_map": {
+    "big5": 0.8,
+    "schwartz": 0.85,
+    "mft": 0.8,
+    "risk": 0.85,
+    "time": 0.95,
+    "regulatory_focus": 0.85,
+    "decision_style": 0.8,
+    "language_style": 0.95,
+    "social_profile": 0.8,
+    "behavioral_indicators": 0.6
+  }
+}
