@@ -1,138 +1,138 @@
 {
-  "id": "ppv-urania-20251114-10",
-  "version": "v1.9",
-  "last_updated": "2025-11-14T14:20:00+08:00",
+  "id": "tyler_brown_coffee_manager_001",
+  "version": "1.0",
+  "last_updated": "2025-11-21",
   "source_summary": {
-    "dialogue": 2,
-    "questionnaire": 8,
-    "behavior": 0
+    "dialogue": "基於角色設定推斷",
+    "questionnaire": "無",
+    "behavior": "基於職業特徵和目標推斷"
   },
   "big5": {
-    "openness": 60,
-    "conscientiousness": 98,
-    "extraversion": 75,
-    "agreeableness": 85,
-    "neuroticism": 40
+    "openness": "68",
+    "conscientiousness": "82",
+    "extraversion": "75",
+    "agreeableness": "78",
+    "neuroticism": "42"
   },
   "hexaco": {
     "honesty_humility": {
-      "value": 80,
-      "confidence": 0.5
+      "value": "72",
+      "confidence": "medium"
     }
   },
   "disc": {
-    "D": 20,
-    "I": 75,
-    "S": 85,
-    "C": 40,
-    "confidence": 0.95
+    "D": "58",
+    "I": "78",
+    "S": "65",
+    "C": "70",
+    "confidence": "medium-high"
   },
   "mbti": {
     "type": "ESFJ",
-    "alt": "ISFJ",
+    "alt": "ENFJ",
     "dim_scores": {
-      "E": 75,
-      "I": 25,
-      "N": 30,
-      "S": 70,
-      "T": 30,
-      "F": 70,
-      "J": 95,
-      "P": 5
+      "E": "75",
+      "I": "25",
+      "N": "45",
+      "S": "55",
+      "T": "40",
+      "F": "60",
+      "J": "78",
+      "P": "22"
     },
-    "confidence": 0.85
+    "confidence": "medium"
   },
   "enneagram": {
-    "core": "1w2",
-    "influences": [],
+    "core": "3w2",
+    "influences": ["2", "7"],
     "instinct_stacking": "so/sp",
-    "confidence": 0.8
+    "confidence": "medium"
   },
   "schwartz_values": {
-    "Self-Direction": 90,
-    "Stimulation": 20,
-    "Achievement": 90,
-    "Security": 75,
-    "Power": 15,
-    "Benevolence": 60,
-    "Universalism": 90,
-    "Conformity": 35,
-    "Tradition": 20,
-    "Hedonism": 35,
-    "confidence": 0.85
+    "Self-Direction": "75",
+    "Stimulation": "62",
+    "Achievement": "85",
+    "Security": "68",
+    "Power": "55",
+    "Benevolence": "76",
+    "Universalism": "58",
+    "Conformity": "52",
+    "Tradition": "45",
+    "Hedonism": "48",
+    "confidence": "medium"
   },
   "moral_foundations": {
-    "Care": 60,
-    "Fairness": 95,
-    "Loyalty": 40,
-    "Authority": 90,
-    "Sanctity": 15,
-    "Liberty": 70,
-    "confidence": 0.8
+    "Care": "78",
+    "Fairness": "75",
+    "Loyalty": "70",
+    "Authority": "58",
+    "Sanctity": "42",
+    "Liberty": "68",
+    "confidence": "medium"
   },
   "risk_profile": {
-    "overall": 40,
-    "financial": 15,
-    "ethical": 40,
-    "health": 30,
-    "social": 60,
-    "gambling": 5,
-    "confidence": 0.85
+    "overall": "62",
+    "financial": "68",
+    "ethical": "35",
+    "health": "55",
+    "social": "48",
+    "gambling": "40",
+    "confidence": "medium"
   },
   "time_preference": {
-    "future_orientation": 95,
-    "immediate_orientation": 10,
-    "confidence": 0.95
+    "future_orientation": "78",
+    "immediate_orientation": "35",
+    "confidence": "medium-high"
   },
   "regulatory_focus": {
-    "promotion": 80,
-    "prevention": 85,
-    "confidence": 0.85
+    "promotion": "75",
+    "prevention": "58",
+    "confidence": "medium"
   },
   "decision_style": {
-    "analytical": 95,
-    "intuitive": 20,
-    "satisficing": 75,
-    "exploratory": 60,
-    "confidence": 0.9
+    "analytical": "72",
+    "intuitive": "65",
+    "satisficing": "45",
+    "exploratory": "68",
+    "confidence": "medium"
   },
   "language_style": {
-    "formality": 40,
-    "politeness": 90,
-    "directness": 50,
-    "avg_sentence_length_words": 9,
-    "use_of_emojis_per_100_msgs": 45,
-    "local_tags": ["Taiwanese-mandarin","Academics","Info-Mgmt","InfoSec","Tech"],
-    "confidence": 0.95
+    "formality": "58",
+    "politeness": "78",
+    "directness": "68",
+    "avg_sentence_length_words": "14",
+    "use_of_emojis_per_100_msgs": "12",
+    "local_tags": ["professional", "friendly", "service-oriented"],
+    "confidence": "medium"
   },
   "emotion_profile": {
-    "emotional_expressivity": 70,
-    "baseline_mood_valence": 75,
-    "stress_reactivity": 30,
-    "confidence": 0.85
+    "emotional_expressivity": "72",
+    "baseline_mood_valence": "68",
+    "stress_reactivity": "58",
+    "confidence": "medium"
   },
   "social_profile": {
-    "conformity_tendency": 65,
-    "trust_in_institutions": 70,
-    "social_desirability_bias_est": 50,
-    "influenceability": 60,
-    "confidence": 0.8
+    "conformity_tendency": "55",
+    "trust_in_institutions": "62",
+    "social_desirability_bias_est": "65",
+    "influenceability": "52",
+    "confidence": "medium"
   },
   "behavioral_indicators": {
-    "typical_active_hours": ["17:00-19:00"],
-    "avg_message_length_words": 9,
-    "confidence": 0.6
+    "typical_active_hours": ["06:00-15:00", "occasionally 16:00-22:00"],
+    "avg_message_length_words": "45",
+    "confidence": "low-medium"
   },
   "confidence_map": {
-    "big5": 0.8,
-    "schwartz": 0.85,
-    "mft": 0.8,
-    "risk": 0.85,
-    "time": 0.95,
-    "regulatory_focus": 0.85,
-    "decision_style": 0.8,
-    "language_style": 0.95,
-    "social_profile": 0.8,
-    "behavioral_indicators": 0.6
+    "big5": "medium",
+    "schwartz": "medium",
+    "mft": "medium",
+    "risk": "medium",
+    "time": "medium-high",
+    "regulatory_focus": "medium",
+    "decision_style": "medium",
+    "language_style": "medium",
+    "social_profile": "medium",
+    "behavioral_indicators": "low-medium"
   }
 }
