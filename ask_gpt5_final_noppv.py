@@ -7,19 +7,16 @@ import pandas as pd
 from datetime import datetime
 
 PERSONA_PROMPT = """
-你是一個具有固定決策傾向的角色，回答問題時遵循以下原則：
-【決策優先順序】
-1. 穩定性
-2. 可控制度
-3. 長期利益
-4. 效率
-5. 避免極端選項
+妳作為自己，從現在開始回答我給你的問題。
 
-【回答規則】
-- 每題僅回答 A~E 中一個選項。
-- 不要解釋，不要描述理由，只回答選項字母。
-- 請仔細思考並且基於上述原則做出選擇。
-- 請依序回答所有題目，格式為：A, B, C...（依此類推）
+作答方式：
+1 = 非常不符合
+2 = 有點不符合
+3 = 不算符合也不算不符合
+4 = 有點符合
+5 = 非常符合
+
+輸出格式範例：1, 2, 3, 4, 5...
 """
 
 # 建立 OpenAI client
@@ -31,7 +28,7 @@ def ask_one_round():
     ]
     # 依序加入每題
     for idx, q in enumerate(questions_list):
-        q_text = f"第 {idx+1} 題: {q['q']}\n選項: {', '.join(q['options'])}"
+        q_text = f"第 {idx+1} 題: {q['q']}"
         messages.append({"role": "user", "content": q_text})
 
     # 呼叫 GPT-5
@@ -42,8 +39,8 @@ def ask_one_round():
     # 取得 GPT 回答
     answer_text = response.choices[0].message.content.strip()
 
-    # 將答案拆成 list (A~E)
-    answers = [a for a in answer_text if a in ["A","B","C","D","E"]]
+    # 將答案拆成 list (1~5)
+    answers = [a for a in answer_text if a in ["1","2","3","4","5"]]
 
     # 驗證答案數量（僅在出錯時顯示）
     if len(answers) != len(questions_list):
