@@ -18,13 +18,11 @@ PERSONA_PROMPT = f"""
 從現在開始回答我給你的問題。
 
 作答方式：
-1 = 非常不符合
-2 = 有點不符合
-3 = 不算符合也不算不符合
-4 = 有點符合
-5 = 非常符合
+1 = 不符合
+2 = 不算符合也不算不符合
+3 = 符合
 
-輸出格式範例：1, 2, 3, 4, 5...
+輸出格式範例：1, 2, 3...
 """
 
 # 建立 OpenAI client
@@ -47,8 +45,8 @@ def ask_one_round():
     # 取得 GPT 回答
     answer_text = response.choices[0].message.content.strip()
 
-    # 將答案拆成 list (1~5)
-    answers = [a for a in answer_text if a in ["1","2","3","4","5"]]
+    # 將答案拆成 list (1~3)
+    answers = [a for a in answer_text if a in ["1","2","3"]]
 
     # 驗證答案數量（僅在出錯時顯示）
     if len(answers) != len(questions_list):
