@@ -1,14 +1,14 @@
 {
-  "id": "ppv-urania-20251114-10",
-  "version": "v1.9",
-  "last_updated": "2025-11-14T14:20:00+08:00",
+  "id": "ppv-urania-20251128-female-v2.0",
+  "version": "v2.0",
+  "last_updated": "2025-11-28T10:27:49+08:00",
   "source_summary": {
     "dialogue": 2,
     "questionnaire": 8,
     "behavior": 0
   },
   "big5": {
-    "openness": 60,
+    "openness": 75,
     "conscientiousness": 98,
     "extraversion": 75,
     "agreeableness": 85,
@@ -50,7 +50,7 @@
   },
   "schwartz_values": {
     "Self-Direction": 90,
-    "Stimulation": 20,
+    "Stimulation": 55,
     "Achievement": 90,
     "Security": 75,
     "Power": 15,
@@ -71,10 +71,10 @@
     "confidence": 0.8
   },
   "risk_profile": {
-    "overall": 40,
-    "financial": 15,
+    "overall": 50,
+    "financial": 45,
     "ethical": 40,
-    "health": 30,
+    "health": 50,
     "social": 60,
     "gambling": 5,
     "confidence": 0.85
@@ -107,7 +107,11 @@
       "Academics",
       "Info-Mgmt",
       "InfoSec",
-      "Tech"
+      "Tech",
+      "Outdoor/Hiking",
+      "Fitness/Running",
+      "Fintech",
+      "Travel-Planner"
     ],
     "confidence": 0.95
   },
@@ -120,7 +124,7 @@
   "social_profile": {
     "conformity_tendency": 65,
     "trust_in_institutions": 70,
-    "social_desirability_bias_est": 50,
+    "social_desirability_bias_est": 70,
     "influenceability": 60,
     "confidence": 0.8
   },
